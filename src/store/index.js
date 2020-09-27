@@ -1,13 +1,7 @@
 import { createStore } from 'vuex';
 import auth from './modules/auth';
+import images from './modules/images';
 
 export default createStore({
-  // state() {
-  //   return {
-  //     count: 1,
-  //   };
-  // },
-  // mutations: {},
-  // actions: {},
-  modules: { auth },
+  modules: { auth, images },
 });
